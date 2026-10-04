@@ -216,3 +216,52 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* Keep supporting copy comfortable to read across screens. */
+.topline-inner { font-size: 12px; }
+.brand-copy small { font-size: 11px; }
+.navigation a { font-size: 12px; }
+.eyebrow, .section-number { font-size: 10px; }
+.hero-copy { font-size: 15px; }
+.button, .hero-secondary { font-size: 12px; }
+.hero-caption { font-size: 12px; }
+.hero-location { font-size: 10px; }
+.intro-bottom p { font-size: 14px; }
+.text-link { font-size: 12px; }
+.values-head > p, .news-head > p { font-size: 13px; }
+.value-icon { font-size: 10px; }
+.value-card p, .feature-copy p { font-size: 13px; }
+.story-tag { font-size: 10px; }
+.gallery-heading > p { font-size: 12px; }
+.gallery-item figcaption { font-size: 12px; }
+.gallery-item figcaption span { font-size: 11px; }
+.lightbox-caption { font-size: 13px; }
+.contact > .contact-inner > p { font-size: 13px; }
+.footer-brand .brand-copy small { font-size: 10px; }
+.footer-note, .copyright { font-size: 10.5px; }
+.back-top { font-size: 12px; }
+
+@media (max-width: 900px) {
+  .navigation a { font-size: 12px; }
+}
+
+@media (max-width: 650px) {
+  .topline-inner { min-height: 38px; font-size: 10px; line-height: 1.35; }
+  .brand-copy small, .footer-brand .brand-copy small { font-size: 10px; }
+  .navigation a { font-size: 13px; }
+  .eyebrow, .section-number { font-size: 10px; }
+  .hero-copy { font-size: 14px; }
+  .hero-secondary, .button { font-size: 12px; }
+  .hero-caption { font-size: 10px; }
+  .hero-location { font-size: 9px; }
+  .intro-bottom p, .values-head > p, .news-head > p { font-size: 13px; }
+  .text-link { font-size: 12px; }
+  .value-card p, .feature-copy p { font-size: 12px; }
+  .story-tag { font-size: 9px; }
+  .gallery-heading > p { font-size: 12px; }
+  .gallery-item figcaption { font-size: 11px; }
+  .gallery-item figcaption span { font-size: 10px; }
+  .contact > .contact-inner > p { font-size: 13px; }
+  .footer-note, .copyright { font-size: 10px; }
+  .back-top { font-size: 11px; }
+}
